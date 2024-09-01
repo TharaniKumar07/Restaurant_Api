@@ -32,3 +32,5 @@ class FoodRecipeSerializer(serializers.ModelSerializer):
         if not value.strip():
             raise serializers.ValidationError("Category cannot be blank.")
         return value
+    
+# Validated successfully
